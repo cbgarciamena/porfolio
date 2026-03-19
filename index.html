@@ -1,0 +1,537 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.65">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Carmen García Mena | Comunicación, PR &amp; Marketing&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.0/lucide.min.js"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,700;1,700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; overflow-x: hidden; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1, h2, h3, h4, .font-serif { font-family: 'Playfair Display', serif; }</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.sticky-parent { height: 950vh; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.sticky-content {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: sticky;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100vw;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.horizontal-track {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0 10vw;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>will-change: transform;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 90vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.timeline-main-line {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f1f5f9;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.exp-card {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 650px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-shrink: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-right: 200px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: relative;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>z-index: 10;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.exp-card.featured { width: 850px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.strategy-info {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-height: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.exp-card:hover .strategy-info {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-height: 1500px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>opacity: 1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.exp-card:hover { transform: translateY(-30px); }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.dot-marker {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #ef4444;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 4px solid white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>position: absolute;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>top: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>left: -80px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transform: translateY(-50%);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 0 0 10px rgba(239, 68, 68, 0.05);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.metric-pill {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: rgba(255,255,255,0.15);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 4px 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 700;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 0.05em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.skill-badge {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #f8fafc;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #e2e8f0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 4px 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 6px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 11px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #475569;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: inline-block;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 2px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar { width: 6px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-track { background: #f1f5f9; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>.news-link {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-transform: uppercase;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>letter-spacing: 0.05em;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #94a3b8;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.news-link:hover { color: #f87171; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="bg-white text-slate-900"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header class="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-[100] border-b border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-xl font-bold tracking-tighter uppercase"&gt;Carmen García &lt;span class="text-red-600 font-black"&gt;Mena&lt;/span&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="hidden md:flex space-x-8 font-medium text-[10px] uppercase tracking-[0.2em] text-slate-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#sobre-mi" class="hover:text-red-600 transition"&gt;Perfil&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#trayectoria" class="hover:text-red-600 transition"&gt;Trayectoria&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#prensa" class="hover:text-red-600 transition"&gt;Hitos&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#habilidades" class="hover:text-red-600 transition"&gt;Formación &amp; Skills&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/in/carmen-garcía-mena-responsable-comunicación-pr-marketing" target="_blank" class="bg-slate-900 text-white px-6 py-2.5 rounded-full text-[10px] font-bold hover:bg-red-600 transition uppercase tracking-wider"&gt;Contacto&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="min-h-[90vh] flex items-center px-6 pt-24 pb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="inline-block px-5 py-2 mb-10 text-[10px] font-bold tracking-[0.25em] text-red-600 border border-red-200 rounded-full bg-red-50 uppercase leading-relaxed max-w-2xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Responsable de Comunicación | PR | Relaciones Públicas | &lt;br class="hidden md:block"&gt;Comunicación Corporativa, Marketing y Redes Sociales</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-7xl md:text-[9rem] mb-12 leading-[0.85] font-bold tracking-tight"&gt;Estrategia. &lt;br&gt;&lt;span class="italic text-red-600"&gt;Impacto.&lt;/span&gt; &lt;br&gt;Reputación.&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-xl md:text-2xl text-slate-500 max-w-2xl leading-relaxed font-light italic mt-16"&gt;Transformando desafíos complejos en narrativas de éxito institucional y liderazgo mediático.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="sobre-mi" class="py-32 bg-slate-50 relative z-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-5xl mx-auto px-6 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-5xl font-serif mb-12 italic leading-tight"&gt;Conectando audiencias &lt;br&gt; &lt;span class="text-red-600"&gt;con mensajes que importan.&lt;/span&gt;&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="space-y-8 text-slate-600 font-light text-xl md:text-2xl leading-relaxed max-w-4xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Creo firmemente en el &lt;strong class="text-slate-900 font-medium"&gt;poder de las historias&lt;/strong&gt; para transformar realidades. Soy una persona versátil, resolutiva y analítica, con un enfoque positivo que fomenta la colaboración y el compromiso en los equipos.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Capaz de encontrar oportunidades incluso en los retos más complejos. Metódica, estratégica y creativa, destaco por liderar proyectos y equipos en un &lt;strong class="text-red-600 font-medium italic"&gt;entorno productivo, alegre y motivador&lt;/strong&gt;, siempre alineado con los objetivos corporativos.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="trayectoria" class="sticky-parent"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="sticky-content"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="absolute top-20 left-10 md:left-24 z-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-sm font-black uppercase tracking-[0.5em] text-slate-300"&gt;Trayectoria Profesional&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="timeline-main-line"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="horizontal-track" id="horizontalTrack"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Good Rebels --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="exp-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="dot-marker"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[10px] font-bold text-red-600 uppercase tracking-widest"&gt;2025 — Actualidad&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-4xl font-bold mt-2 mb-1"&gt;Good Rebels&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-400 font-medium text-xs uppercase tracking-widest mb-6"&gt;Responsable de Comunicación Senior&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-8 bg-slate-50 rounded-[2rem] border border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-slate-600 font-light"&gt;Estrategias de comunicación 360° alineadas con objetivos corporativos de la agencia.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="strategy-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;ul class="space-y-3 text-xs text-slate-500 font-light mt-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Estrategia:&lt;/strong&gt; Desarrollo de planes de comunicación interna y externa con monitorización continua.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Digital:&lt;/strong&gt; Gestión de contenidos para informes, presentaciones y canales digitales.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;PR &amp; Marketing:&lt;/strong&gt; Coordinación de relaciones públicas y ejecución de acciones de engagement digital.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Innovación:&lt;/strong&gt; Ideación de formatos audiovisuales para reforzar la identidad de marca.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- CENFORADE --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="exp-card featured"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="dot-marker"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[10px] font-bold text-red-600 uppercase tracking-widest"&gt;2024 — 2025&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-4xl font-bold mt-2 mb-1"&gt;Cenforade&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-400 font-medium text-xs uppercase tracking-widest mb-6"&gt;Responsable de Marketing y Comunicación&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-10 bg-slate-900 text-white rounded-[3rem] shadow-2xl shadow-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-4 gap-4 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-red-600"&gt;+109% ALCANCE&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-red-600"&gt;+446% CONTENIDO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-red-600"&gt;-36% COSTE ENG.&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-red-600"&gt;+2.200% VÍDEO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-white/70 font-light mb-2"&gt;Transformación digital y optimización de captación mediante CRM y estrategias multicanal.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="strategy-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="grid grid-cols-2 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 opacity-80 border-b border-white/20 pb-2"&gt;Contenido &amp; RRSS&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Crecimiento:&lt;/strong&gt; +50% en comunidad y +298% en engagement orgánico mediante nueva identidad visual.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Producción:&lt;/strong&gt; Plan multimedia de +60 piezas mensuales optimizadas para FB, X, LI, IG y TikTok.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Publicidad:&lt;/strong&gt; Reducción del 28,2% en CPM and aumento del 772% en engagement pagado.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 opacity-80 border-b border-white/20 pb-2"&gt;Sistemas &amp; Leads&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;HubSpot &amp; Clientify:&lt;/strong&gt; Implementación del CRM y capacitación de 15 usuarios (+15% eficiencia).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Captación:&lt;/strong&gt; Aumento del 13,8% en generación de leads cualificados.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Multicanal:&lt;/strong&gt; Estrategias integradas de Email, WhatsApp Marketing y RRSS.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- CRUZ ROJA --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="exp-card featured"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="dot-marker"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[10px] font-bold text-red-600 uppercase tracking-widest"&gt;2021 — 2024&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-5xl font-bold mt-2 mb-1"&gt;Cruz Roja Española&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-400 font-medium text-xs uppercase tracking-widest mb-6"&gt;Responsable de Medios de Comunicación (Nacional)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-10 bg-red-600 text-white rounded-[3rem] shadow-2xl shadow-red-200 relative overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-4 gap-4 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill"&gt;155K IMPACTOS/AÑO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill"&gt;432 IMPACTOS/DÍA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill"&gt;+110% AVE (2023)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill"&gt;+2.300 PROACTIVOS&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-white/90 font-light mb-2"&gt;Liderazgo PR nacional e internacional y gestión estratégica de crisis mediáticas.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="strategy-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="grid grid-cols-2 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 opacity-80 border-b border-white/20 pb-2"&gt;Estrategia &amp; PR&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Liderazgo PR:&lt;/strong&gt; Gestión mediática nacional e internacional coordinada con objetivos estratégicos.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Contenidos:&lt;/strong&gt; +80 notas de prensa anuales, statements, argumentarios y gestión de entrevistas de alta dirección.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Hitos Crisis:&lt;/strong&gt; Gestión del Volcán La Palma (+6.100 impactos y +100 gestiones diarias) y Portada ABC (Crisis Afganistán).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 opacity-80 border-b border-white/20 pb-2"&gt;Equipos &amp; Digital&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Gestión de Equipos:&lt;/strong&gt; Coordinación de 70 responsables territoriales y agencias externas.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Digital:&lt;/strong&gt; Liderazgo (Mar-Ago 21) con +600k followers (+7%) y 48M de impresiones (+110%).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;#GraciasLuna:&lt;/strong&gt; TT Nacional el 19/5/21. Reversión estratégica de crisis de odio en Ceuta.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;&lt;strong class="font-bold"&gt;Eficiencia:&lt;/strong&gt; Implementación CRM &lt;span class="italic"&gt;Augure&lt;/span&gt; (+50% eficiencia en gestión).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- AYTO MANZANARES --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="exp-card featured"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="dot-marker"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[10px] font-bold text-red-600 uppercase tracking-widest"&gt;2018 — 2021&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-4xl font-bold mt-2 mb-1"&gt;Ayto. Manzanares&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-400 font-medium text-xs uppercase tracking-widest mb-6"&gt;Jefa de Prensa y Directora de TV&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-10 bg-white border-2 border-slate-100 rounded-[3rem] shadow-xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-4 gap-4 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-100 text-slate-800"&gt;150K AUDIENCIA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-100 text-slate-800"&gt;+260 NP/AÑO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-100 text-slate-800"&gt;100 R. PRENSA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-100 text-slate-800"&gt;22K FOLLOWERS&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-slate-600 font-light mb-2"&gt;Creación y dirección de medios locales con alto impacto institucional y social.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="strategy-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="grid grid-cols-2 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 text-red-600 border-b border-red-100 pb-2"&gt;Comunicación Institucional&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] text-slate-600 font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Imagen:&lt;/strong&gt; Refuerzo reputacional en comarca de 100k habitantes.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Contenidos:&lt;/strong&gt; Redacción de 260 notas de prensa y organización de eventos institucionales.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 text-red-600 border-b border-red-100 pb-2"&gt;Dirección Audiovisual&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] text-slate-600 font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Lanzamiento:&lt;/strong&gt; Creación desde cero de la televisión local (Manzanares10TV).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Producción:&lt;/strong&gt; +500 noticias anuales, locución y presentación de programas.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- TURINFA --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="exp-card featured"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="dot-marker"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="text-[10px] font-bold text-red-600 uppercase tracking-widest"&gt;2014 — 2017&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-4xl font-bold mt-2 mb-1"&gt;Turinfa&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-slate-400 font-medium text-xs uppercase tracking-widest mb-6"&gt;Secretaría General y Responsable de Comunicación&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-10 bg-slate-50 border border-slate-200 rounded-[3rem] shadow-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="grid grid-cols-4 gap-4 mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-900 text-white"&gt;+200% EFICIENCIA&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-900 text-white"&gt;+50% SOCIOS&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-900 text-white"&gt;GUINNESS WORLD RECORD&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="metric-pill bg-slate-900 text-white"&gt;INTERÉS TURÍSTICO&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-sm text-slate-600 font-light mb-2"&gt;Gestión integral y dinamización estratégica del desarrollo turístico y empresarial en el Campo de Montiel.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="strategy-info"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="grid grid-cols-2 gap-10"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 text-red-600 border-b border-red-100 pb-2"&gt;Gestión &amp; Operaciones&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] text-slate-600 font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Eficacia Operativa:&lt;/strong&gt; Mejora del 200% en actividad y procesos normativos/contables.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Crecimiento:&lt;/strong&gt; Incremento del 50% en la base de socios durante el periodo.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Dinamización:&lt;/strong&gt; Asegurando el cumplimiento estratégico de la asociación regional.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;h4 class="text-xs font-black uppercase tracking-widest mb-4 text-red-600 border-b border-red-100 pb-2"&gt;Comunicación &amp; Hitos&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;ul class="space-y-3 text-[11px] text-slate-600 font-light leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Imagen de Marca:&lt;/strong&gt; Liderazgo en el fortalecimiento de la visibilidad y reputación de la entidad.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;World Record:&lt;/strong&gt; Guinness World Record al pisto más grande del mundo (04/09/2016).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Reconocimiento:&lt;/strong&gt; Declaración de Fiesta de Interés Turístico Regional a la Fiesta del Pimiento.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                        </span>&lt;li&gt;• &lt;strong class="font-bold"&gt;Legado:&lt;/strong&gt; Implementación de señalética en autovía A-4 y creación de guía turística-empresarial.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                    </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="w-[20vw] flex-shrink-0"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="prensa" class="py-32 bg-slate-900 text-white relative z-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-5xl md:text-7xl mb-24 italic font-serif text-center"&gt;Algunos hitos destacados&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Hito 1: #GraciasLuna --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="group border-t border-white/10 pt-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-red-500 font-bold text-[10px] uppercase tracking-widest mb-4"&gt;Reputación &amp; Crisis&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-2xl font-bold mb-4 italic leading-tight group-hover:text-red-400 transition"&gt;Trending Topic #GraciasLuna&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-400 font-light mb-6"&gt;Liderazgo de una gestión de crisis que se convirtió en movimiento global.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://x.com/CruzRojaEsp/status/1395124633247047684" target="_blank" class="news-link"&gt;&lt;i data-lucide="twitter" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; Post Original X (Twitter)&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.lasexta.com/noticias/sociedad/graciasluna-agradecimiento-viral-trabajadora-cruz-roja-frente-odio-redes_2021052060a667258ae1150001afae67.html" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; La Sexta Noticias&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.elperiodico.com/es/sociedad/20210520/apoyo-luna-voluntaria-cruz-roja-inmigrante-ceuta-11743180" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; El Periódico&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.theguardian.com/world/2021/may/20/spanish-aid-volunteer-luna-reyes-abused-online-for-hugging-african-migrant" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; The Guardian&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.tiktok.com/@informativost5/video/6964363313568304389" target="_blank" class="news-link"&gt;&lt;i data-lucide="video" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; Informativos T5 (TikTok)&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Hito 2: Misión Afganistán --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="group border-t border-white/10 pt-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-red-500 font-bold text-[10px] uppercase tracking-widest mb-4"&gt;Relaciones Públicas&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-2xl font-bold mb-4 italic leading-tight group-hover:text-red-400 transition"&gt;Misión Afganistán: Portada ABC&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-400 font-light mb-6"&gt;Coordinación de imagen institucional durante la crisis de evacuación en Torrejón.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="https://www.abc.es/archivo/periodicos/abc-madrid-20210824.html" target="_blank" class="news-link"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="file-text" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; Hemeroteca: Portada ABC (24/08/21)</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Hito 3: Guinness Pisto --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="group border-t border-white/10 pt-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-red-500 font-bold text-[10px] uppercase tracking-widest mb-4"&gt;Eventos Globales&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h4 class="text-2xl font-bold mb-4 italic leading-tight group-hover:text-red-400 transition"&gt;Guinness Record Pisto&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-sm text-slate-400 font-light mb-6"&gt;Gestión de gran evento mediático y repercusión nacional para Villanueva de los Infantes.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="flex flex-col space-y-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.lasexta.com/noticias/sociedad/la-localidad-manchega-de-villanueva-de-los-infantes-bate-el-record-guinness-de-pisto-mas-grande-del-mundo_2016090457cc7e440cf2559eb36c08f8.html" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; La Sexta&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.antena3.com/noticias/cultura/1254-kilos-villanueva-infantes-bate-record-guinness-pisto-mas-grande-mundo_2016090457cc4e900cf2a8906f3645bb.html" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; Antena 3&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.abc.es/espana/castilla-la-mancha/abci-villanueva-infantes-consigue-record-guinness-lcanza-pisto-1254-kilos-201609042203_noticia.html" target="_blank" class="news-link"&gt;&lt;i data-lucide="external-link" class="w-3 h-3 mr-2"&gt;&lt;/i&gt; ABC Nacional&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="habilidades" class="py-32 bg-slate-50 relative z-50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid lg:grid-cols-2 gap-24"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="space-y-20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-sm font-black uppercase tracking-[0.4em] text-red-600 mb-10"&gt;Formación Académica&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="space-y-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="group border-l-2 border-slate-200 pl-6 hover:border-red-500 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-red-600 transition"&gt;Máster en Dirección de Comunicación Corporativa&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-slate-500 mt-1 uppercase tracking-wider"&gt;Universidad de Barcelona · Junio 2018&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="group border-l-2 border-slate-200 pl-6 hover:border-red-500 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-red-600 transition"&gt;Máster en Marketing Político y Comunicación Estratégica&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-slate-500 mt-1 uppercase tracking-wider"&gt;Universidad de Alcalá · Febrero 2022&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="group border-l-2 border-slate-200 pl-6 hover:border-red-500 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="text-lg font-bold text-slate-900 leading-tight group-hover:text-red-600 transition"&gt;Licenciada en Comunicación Audiovisual&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-slate-500 mt-1 uppercase tracking-wider"&gt;Univ. Rey Juan Carlos de Madrid · Junio 2010&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="mt-12 bg-white/50 p-6 rounded-2xl border border-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;h4 class="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-4"&gt;Certificaciones &amp; Complementaria&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge italic"&gt;Pilota Drones A1/A3, A2 y STS (AESA 2024)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Marketing Digital (2024)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Storytelling (Mr Marcel 2022)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Protocolo (2015)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;E-commerce &amp; Community Manager&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Posicionamiento Web &amp; AdWords&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Motivación &amp; Autoliderazgo&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Comunicación en Emergencias&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-sm font-black uppercase tracking-[0.4em] text-red-600 mb-6"&gt;Idiomas&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex items-center gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="w-12 h-12 rounded-full bg-slate-900 flex items-center justify-center text-white shrink-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="text-xs font-bold"&gt;C1&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;h5 class="font-bold text-slate-900 uppercase tracking-tighter"&gt;Inglés: Avanzado&lt;/h5&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;p class="text-xs text-slate-500 font-light"&gt;C1 Course Certificate at Education First, Bristol, UK. &lt;br&gt;Experiencia en entornos internacionales.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="space-y-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-sm font-black uppercase tracking-[0.4em] text-red-600 mb-6"&gt;Programas &amp; Workflow&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="space-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-[10px] font-bold text-slate-400 uppercase mb-3 tracking-widest"&gt;CRM &amp; Medios&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;HubSpot&lt;/span&gt; &lt;span class="skill-badge"&gt;Augure&lt;/span&gt; &lt;span class="skill-badge"&gt;Clientify&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-[10px] font-bold text-slate-400 uppercase mb-3 tracking-widest"&gt;Social Media &amp; Stream&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Metricool&lt;/span&gt; &lt;span class="skill-badge"&gt;Hootsuite&lt;/span&gt; &lt;span class="skill-badge"&gt;Amplify&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Clarabridge&lt;/span&gt; &lt;span class="skill-badge"&gt;Streamyard&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-[10px] font-bold text-slate-400 uppercase mb-3 tracking-widest"&gt;Edición &amp; Post-Producción&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Adobe Premiere&lt;/span&gt; &lt;span class="skill-badge"&gt;Photoshop&lt;/span&gt; &lt;span class="skill-badge"&gt;Illustrator&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Edius&lt;/span&gt; &lt;span class="skill-badge"&gt;Avid&lt;/span&gt; &lt;span class="skill-badge"&gt;New Tek Tricaster&lt;/span&gt;<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;BlackMagic Design&lt;/span&gt; &lt;span class="skill-badge"&gt;Canva&lt;/span&gt; &lt;span class="skill-badge"&gt;Corel Draw&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;p class="text-[10px] font-bold text-slate-400 uppercase mb-3 tracking-widest"&gt;Gestión &amp; Operativa&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="flex flex-wrap gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Jira&lt;/span&gt; &lt;span class="skill-badge"&gt;Trello&lt;/span&gt; &lt;span class="skill-badge"&gt;Notion&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                                </span>&lt;span class="skill-badge"&gt;Slack&lt;/span&gt; &lt;span class="skill-badge"&gt;Office365&lt;/span&gt; &lt;span class="skill-badge"&gt;Workspace&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="bg-white border border-slate-200 rounded-[3rem] p-10 mt-12 shadow-sm relative overflow-hidden group hover:border-red-100 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="absolute top-0 right-0 p-8 opacity-5"&gt;&lt;i data-lucide="heart" class="w-24 h-24 text-red-600"&gt;&lt;/i&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-sm font-black uppercase tracking-[0.4em] text-red-600 mb-6"&gt;Voluntariado&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h4 class="text-3xl font-serif italic mb-2 text-slate-900"&gt;Cruz Roja Española&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-[10px] font-bold uppercase tracking-[0.2em] mb-6 text-slate-400 border-b border-slate-100 pb-4 inline-block"&gt;2013 — Actualidad&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="space-y-3 text-xs font-light text-slate-600"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li&gt;• Referente de Comunicación e Imagen (local/provincial).&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li&gt;• Traductora para atención a refugiados.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li&gt;• Intervención Social y Emergencias.&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Footer con la imagen cargada directamente --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer id="contacto" class="py-32 bg-white text-center relative z-50 border-t border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-5xl font-serif italic mb-16"&gt;¿Hablamos?&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="https://www.linkedin.com/in/carmen-garcía-mena-responsable-comunicación-pr-marketing" target="_blank" class="group inline-flex flex-col items-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="w-44 h-44 rounded-full border-4 border-red-50 p-1 mb-8 group-hover:border-red-500 transition-all duration-500 overflow-hidden bg-slate-100 shadow-2xl relative flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Forzamos la carga de la imagen adjunta --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;img src="foto linkedin.jpeg"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>alt="Carmen García Mena"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">                         </span>class="w-full h-full object-cover rounded-full group-hover:scale-110 transition-transform duration-700"</p>
+<p class="p1"><span class="Apple-converted-space">                         </span>onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;!-- Fallback elegante pero oculto por defecto --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="hidden absolute inset-0 items-center justify-center bg-red-600 text-white font-serif text-5xl italic rounded-full"&gt;CM&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3 class="text-3xl font-bold text-slate-900 mb-2"&gt;Carmen García Mena&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-xs font-bold uppercase tracking-[0.2em] text-red-600 mb-6 max-w-md leading-relaxed"&gt;Responsable de Comunicación | PR | Relaciones Públicas | &lt;br&gt;Comunicación Corporativa, Marketing y Redes Sociales&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center gap-3 py-3 px-8 rounded-full border border-slate-100 text-slate-400 group-hover:text-white group-hover:bg-red-600 group-hover:border-red-600 transition-all duration-300 font-bold text-[10px] tracking-[0.2em] uppercase"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="linkedin" class="w-4 h-4"&gt;&lt;/i&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span&gt;Contactar vía LinkedIn&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-24 text-[10px] text-slate-300 uppercase tracking-widest font-medium"&gt;© 2025 Carmen García Mena · Estrategia &amp; Comunicación&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.onload = function () {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (typeof lucide !== 'undefined') { lucide.createIcons(); }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const stickyParent = document.querySelector('.sticky-parent');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const horizontalTrack = document.getElementById('horizontalTrack');</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// Función para manejar el scroll horizontal</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const handleScroll = () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const parentRect = stickyParent.getBoundingClientRect();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const viewHeight = window.innerHeight;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>if (parentRect.top &lt;= 0 &amp;&amp; parentRect.bottom &gt;= viewHeight) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const progress = -parentRect.top / (parentRect.height - viewHeight);</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const maxScroll = horizontalTrack.scrollWidth - window.innerWidth;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>const translateX = progress * maxScroll;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>horizontalTrack.style.transform = `translateX(-${translateX}px)`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>} else if (parentRect.top &gt; 0) {</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>horizontalTrack.style.transform = `translateX(0px)`;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>window.addEventListener('scroll', handleScroll);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
